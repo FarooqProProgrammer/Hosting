@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --red-color:#F44336;
+  --white:#fff;
+  --grey:#ECEFF1;
+  --grey-dark:#CFD8DC;
+}
+
+.navbar-brand span {
+  color: var(--red-color) !important;
+}
+
+.nav-item.active {
+  background-color: var(--red-color);
+}
+.nav-item.active a {
+  color: var(--white);
+}
+
+.Banner {
+  background-image: url("../assets/banner.webp");
+  background-size: cover;
+  background-position: center;
+}
+.Banner p {
+  color: var(--red-color);
+}
+.Banner button {
+  background-color: var(--red-color);
+}
+
+.statistics {
+  background-color: var(--grey);
+}
+.statistics .stats-section-con {
+  width: 202px;
+}
+.statistics .stats-section-con .stats-section {
+  width: 200px;
+  height: 200px;
+  background-color: var(--grey-dark);
+  border-radius: 100%;
+}
+.statistics .stats-section-con h3 {
+  color: #76788C;
+}
+
+.choose-us .choose-us-box {
+  width: 286px;
+  height: 350px;
+  border: 1px solid #999;
+}
+.choose-us .choose-us-box button {
+  width: 100%;
+  background-color: var(--red-color);
+  border: none;
+  display: none;
+  transition: all 0.6s ease-in-out;
+}
+.choose-us .choose-us-box i {
+  color: var(--red-color) !important;
+}
+.choose-us .choose-us-box:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+.choose-us .choose-us-box:hover p {
+  color: #999 !important;
+}
+.choose-us .choose-us-box:hover h5 {
+  color: #fff !important;
+}
+.choose-us .choose-us-box:hover button {
+  display: block;
+}
+
+footer .row a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+footer .row a:hover {
+  color: var(--red-color) !important;
+}/*# sourceMappingURL=main.css.map */

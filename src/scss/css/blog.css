@@ -1,0 +1,9 @@
+.blog {
+  height: 300px;
+  background-image: url("../../assets/blogbanner.webp");
+  background-size: cover;
+  background-position: center;
+}
+.blog .breadcrumb .breadcrumb-item a {
+  color: #F44336 !important;
+}/*# sourceMappingURL=blog.css.map */

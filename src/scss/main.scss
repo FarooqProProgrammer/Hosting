@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,200;0,400;1,100;1,200;1,300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --red-color:#F44336;
+    --white:#fff;
+    --grey:#ECEFF1;
+    --grey-dark:#CFD8DC;
+}
+
+
+// ============================= NAVBAR ========================
+.navbar-brand {
+    span {
+        color: var(--red-color) !important;
+    }
+}
+.nav-item {
+    &.active {
+        background-color: var(--red-color);
+        a {
+            color:var(--white);
+        }
+    }
+}
+// ============================= NAVBAR ========================
+
+// ============================= Banner ====================
+.Banner {
+    background-image: url('../assets/banner.webp');
+    background-size: cover;
+    background-position: center;
+
+    p {
+        color: var(--red-color);
+    }
+
+    button {
+        background-color: var(--red-color);
+
+    }
+}
+// ============================= Banner ====================
+
+// ===================== STATiSTICS ============================
+.statistics {
+    background-color: var(--grey);
+    .stats-section-con {
+        width: 202px;
+        .stats-section {
+            width: 200px;
+            height: 200px;
+            background-color: var(--grey-dark);
+            border-radius: 100%;
+        }
+        h3 {
+            color: #76788C;
+        }
+    }
+  
+}
+// ===================== STATiSTICS ============================
+
+// ==================== choose-us =======================
+.choose-us {
+    .choose-us-box {
+        width: 286px;
+        height: 350px;
+        border: 1px solid #999;
+        button {
+            width: 100%;
+            background-color: var(--red-color);
+            border: none;
+            display: none;
+            transition: all 0.6s ease-in-out;
+        }
+
+        i {
+            color: var(--red-color) !important;
+        }
+        &:hover {
+            background-color: #000;
+            cursor: pointer;
+            p {
+                color: #999 !important;
+            }
+            h5 {
+                color: #fff !important;
+            }
+            button {
+                display: block;
+            }
+        }
+    }
+}
+// ==================== choose-us =======================
+
+// ===================== FOOTER ============================
+footer {
+    .row {
+        a {
+            text-decoration: none;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+                color: var(--red-color) !important;
+            }
+        }
+    }
+}
+// ===================== FOOTER ============================
